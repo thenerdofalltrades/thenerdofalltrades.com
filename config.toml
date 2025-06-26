@@ -1,0 +1,8 @@
+baseURL = 'https://thenerdofalltrades.com'
+languageCode = 'en-us'
+title = 'The Nerd of All Trades'
+theme = 'PaperMod'
+
+[params]
+    description = "DIY tech projects, hobby guides, and practical solutions"
+    autor = "The Nerd of All Trades"
