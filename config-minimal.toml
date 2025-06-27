@@ -1,0 +1,38 @@
+baseURL = "https://thenerdofalltrades.com"
+languageCode = "en-us"
+title = "The Nerd of All Trades"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 5
+
+[params]
+description = "DIY tech projects and hobby guides"
+author = "The Nerd of All Trades"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+
+[params.profileMode]
+enabled = true
+title = "The Nerd of All Trades"
+subtitle = "DIY Tech Projects • Hobby Guides • Practical Solutions"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 20
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 30
+
+[markup.goldmark.renderer]
+unsafe = true

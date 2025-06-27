@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on The Nerd of All Trades</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on The Nerd of All Trades</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diy</title>
+      <link>http://localhost:1313/tags/diy/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/diy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hobbies</title>
+      <link>http://localhost:1313/tags/hobbies/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hobbies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/tags/introduction/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/introduction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>http://localhost:1313/tags/tech/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1313/tags/welcome/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/welcome/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

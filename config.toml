@@ -1,8 +1,122 @@
-baseURL = 'https://thenerdofalltrades.com'
-languageCode = 'en-us'
-title = 'The Nerd of All Trades'
-theme = 'PaperMod'
+baseURL = "https://thenerdofalltrades.com"
+languageCode = "en-us"
+title = "The Nerd of All Trades"
+theme = "PaperMod"
+
+enableEmoji = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[pagination]
+pagerSize = 5
+
+[permalinks]
+posts = "/posts/:slug/"
 
 [params]
-    description = "DIY tech projects, hobby guides, and practical solutions"
-    autor = "The Nerd of All Trades"
+description = "DIY tech projects, hobby guides, and practical solutions for makers and tinkerers"
+author = "The Nerd of All Trades"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+[params.profileMode]
+enabled = true
+title = "The Nerd of All Trades"
+subtitle = "DIY Tech Projects • Hobby Guides • Practical Solutions"
+imageUrl = "/images/logo.png"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "The Nerd of All Trades"
+
+[[params.profileMode.buttons]]
+name = "Home Server Projects"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Miniature Painting"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Electronics Projects"
+url = "/posts/"
+
+[params.homeInfoParams]
+Title = "Welcome to The Nerd of All Trades"
+Content = "Your go-to resource for DIY tech projects, hobby guides, and practical solutions."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/thenerdofalltrades"
+
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "Articles"
+url = "/posts/"
+weight = 20
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 30
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 40
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 50
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNos = true
+style = "github"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
