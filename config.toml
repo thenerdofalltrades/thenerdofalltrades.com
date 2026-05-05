@@ -1,7 +1,13 @@
 baseURL = "https://thenerdofalltrades.com"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "The Nerd of All Trades"
 theme = "PaperMod"
+
+[languages]
+  [languages.en]
+    label = "English"
+    locale = "en-US"
+    weight = 1
 
 enableEmoji = true
 buildDrafts = false
